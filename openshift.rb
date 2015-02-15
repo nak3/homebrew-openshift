@@ -7,7 +7,6 @@ class Openshift < Formula
   depends_on "go" => :build
 
   def install
-    arch = MacOS.prefer_64_bit? ? "amd64" : "x86"
     output_dir = "_output/local/go/bin"
 
     system "make", "all", "WHAT=cmd/openshift", "GOFLAGS=-v"
