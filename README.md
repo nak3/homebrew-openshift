@@ -11,6 +11,7 @@ Please check [this line](https://github.com/nak3/homebrew-openshift/blob/master/
 ###Install
 
 ```
+$ brew update
 $ brew install nak3/openshift/openshift
 ```
 
