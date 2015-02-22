@@ -15,6 +15,12 @@ $ brew update
 $ brew install nak3/openshift/openshift
 ```
 
+###Update
+```
+$ brew update
+$ brew upgrade
+```
+
 ###Uninstall
 ```
 $ brew uninstall openshift
