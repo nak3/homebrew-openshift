@@ -13,6 +13,7 @@ class Openshift < Formula
 
     bin.install "#{output_dir}/openshift"
     bin.install_symlink "openshift" => "osc"
+    bin.install_symlink "openshift" => "osadm"
   end
 
   test do
