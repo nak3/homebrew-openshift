@@ -27,7 +27,7 @@ $ brew uninstall openshift
 ```
 
 ###Documentation
-[OpenShift Community Documentation - Command Line Interface](https://ci.openshift.redhat.com/openshift-docs-master-testing/latest/using_openshift/cli.html)
+[OpenShift Community Documentation - Command Line Interface](http://docs.openshift.org/latest/cli_reference/overview.html)
 
 
 ### Contact
