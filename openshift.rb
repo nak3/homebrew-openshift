@@ -1,4 +1,4 @@
-HOMEBREW_OPENSHIFT_VERSION="v1.0.3"
+HOMEBREW_OPENSHIFT_VERSION="v1.0.4"
 
 class Openshift < Formula
   homepage "https://github.com/openshift/origin"
