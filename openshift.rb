@@ -7,7 +7,7 @@ class Openshift < Formula
   depends_on "go" => :build
 
   def install
-    output_dir = "_output/local/go/bin"
+    output_dir = "_output/local/bin/darwin/amd64/"
 
     system "make", "all", "WHAT=cmd/openshift", "GOFLAGS=-v"
 
