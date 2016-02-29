@@ -9,7 +9,7 @@ class Openshift < Formula
   def install
     output_dir = "_output/local/bin/darwin/amd64/"
 
-    system "make", "all", "WHAT=cmd/openshift", "GOFLAGS=-v"
+    system "OS_OUTPUT_GOPATH=1" "make", "all", "WHAT=cmd/openshift", "GOFLAGS=-v"
 
     bin.install "#{output_dir}/openshift"
     bin.install_symlink "openshift" => "oc"
