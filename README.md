@@ -1,5 +1,7 @@
 # homebrew-openshift
 
+# IMPORTANT: This repository is EOL. Please use Homebrew's package instead of this repository's. You can follow [origin's doc.](https://docs.openshift.org/latest/cli_reference/get_started_cli.html#cli-mac)
+
 ###Precautions
 
 This is NOT official package and please take full responsibility for your actions.
